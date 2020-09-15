@@ -30,7 +30,8 @@
 
 .facts {
 padding: 32px;
-margin-top: 32px
+margin-top: 32px;
+max-height: 315px;
 }
 
 #bigbutton {
