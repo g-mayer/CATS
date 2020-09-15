@@ -6,7 +6,7 @@
   max-width: 420px;
   width: 100%;
   height: 500px;
-  background: rgb(160, 160, 160, .4);
+  background: rgba(184, 189, 197, 0.28);
   border-radius: 8px;
   box-shadow: #282c34 ;
   margin: 0 auto;
@@ -48,7 +48,12 @@ margin-top: 32px
   outline: none;
 }
 
-#bigbutton:active {
-background: rgb(45, 23, 80, 0.50);
+
+#bigbutton:hover:enabled {
+  background: rgba(220, 235, 255, 0.856)
+}
+
+#bigbutton:active:enabled {
+background: rgba(80, 48, 131, 0.76);
 color: white;
 }
