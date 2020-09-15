@@ -6,11 +6,12 @@
   max-width: 420px;
   width: 100%;
   height: 500px;
-  background: rgba(184, 189, 197, 0.28);
+  background: rgba(82, 89, 150, 0.035);
   border-radius: 8px;
   box-shadow: #282c34 ;
   margin: 0 auto;
   margin-top: 50px;
+  border: 3px solid  rgba(80, 48, 131, 0.9);
 }
 .facts-container {
   display: flex;
@@ -46,14 +47,15 @@ margin-top: 32px
   border-style: none;
   background: white;
   outline: none;
+  color: rgba(80, 48, 131, 0.71);
 }
 
 
 #bigbutton:hover:enabled {
-  background: rgba(220, 235, 255, 0.856)
+  background: rgba(250, 250, 255, 0.95)
 }
 
 #bigbutton:active:enabled {
-background: rgba(80, 48, 131, 0.76);
+background: rgba(80, 48, 131, 0.51);
 color: white;
 }

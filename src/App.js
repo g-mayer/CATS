@@ -3,12 +3,12 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
+  const [disabled, setDisabled] = useState(true);
+  const [items, setItems] = useState([]);
   useEffect( () => {
     fetchItems();
 
   }, []);
-  const [items, setItems] = useState([]);
-  const [disabled, setDisabled] = useState(true);
 
   const changeFact = (fact) => {
     function getRandomInt(min, max) {
@@ -68,7 +68,7 @@ function App() {
         <h2>Here's the Dog fact</h2>
       </center>
       <pre></pre>
-  <div id="fact" className="facts"></div>
+  <div id="fact" className="facts">The facts are coming...</div>
       <button id="bigbutton" onClick={changeFact} disabled={disabled}>
         <h3>Change the Fact</h3>
       </button>
@@ -78,7 +78,7 @@ function App() {
         <h2>Here's the Cat fact</h2>
       </center>
       <pre></pre>
-      <div id="catFact" className="facts"></div>
+      <div id="catFact" className="facts">The facts are coming...</div>
       <button id="bigbutton" onClick={changeCatFact} disabled={disabled}>
         <h3>Change the Fact</h3>
       </button>
