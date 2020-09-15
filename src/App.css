@@ -44,6 +44,8 @@ margin-top: 32px
   height: 60px;
   border-radius: 8px;
   border-style: none;
+  background: white;
+  outline: none;
 }
 
 #bigbutton:active {
